@@ -13,7 +13,7 @@ def process_inputs():
     select = request.form.get('input_select', '')
     freeform = request.form.get('input_freeform', '')
     return render_template("main_page.html", input_data=dropdown,
-                           output="You're a wizard %s." % name
+                           output="You're a wizard %s." % name)
 # What languages do you speak ?
 # What kind of food do you prefer to eat or restuarants you prefer to go to?
-#What are your favoriate hobbies?
+# What are your favoriate hobbies?
